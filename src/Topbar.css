@@ -1,0 +1,42 @@
+.topbar {
+    border-bottom: 1px solid #E6E8E9;
+    text-align: right;
+    padding: 16px 30px 15px;
+}
+
+@media (max-width: 767px) {
+    .topbar {
+        padding: 12px 20px 11px;
+    }
+}
+
+.social {
+    display: inline-block;
+}
+
+.social li {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+@media (max-width: 767px) .social li {
+    transform: scale(0.95);
+}
+
+.social a {
+    margin-right: 30px;
+}
+
+.social-list {
+    list-style-type: none;
+}
+
+.social-icons {
+    width: 20px;
+    height: 20px;
+}
