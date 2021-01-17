@@ -54,6 +54,34 @@ h5 {
 
 h5 a {
   font-weight: 500;
-  color: #f5c15d;
+  color: #D9B002;
   text-decoration: none;
+}
+
+/* General */
+.link {
+  position: relative;
+  color: #D9B002;
+}
+
+.link::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  border-bottom: solid 1px #D9B002;
+  bottom: -1px;
+  width: 0%;
+  left: 0%;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.link:hover::before {
+  border-bottom: solid 1px #D9B002;
+  width: 100%;
+  left: 0%;
 }
