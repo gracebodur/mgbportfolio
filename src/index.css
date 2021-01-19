@@ -1,7 +1,11 @@
 @import-normalize;
 /* bring in normalize.css styles */
 
-/* rest of app styles */
+:root {
+  --black: #111515;
+  --gold: goldenrod;
+}
+
 
 /* Fonts */
 h1 {
@@ -9,7 +13,7 @@ h1 {
   font-style: normal;
   font-weight: 800;
   word-spacing: 5px;
-  color: #111515;
+  color: var(--black);
   -webkit-font-smoothing: auto;
 }
 
@@ -19,7 +23,7 @@ h2 {
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
-  color: #111515;
+  color: var(--black);
   letter-spacing: -1.45px;
 }
 
@@ -29,7 +33,7 @@ h3 {
   font-weight: 700;
   font-size: 30px;
   line-height: 38px;
-  color: #111515;
+  color: var(--black);
   letter-spacing: -0.8px;
 }
 
@@ -39,7 +43,7 @@ h4 {
   font-weight: 200;
   font-size: 26px;
   line-height: 46px;
-  color: #111515;
+  color: var(--black);
   letter-spacing: 0.4px;
 }
 
@@ -49,26 +53,28 @@ h5 {
   font-weight: 200;
   font-size: 21px;
   line-height: 37px;
-  color: #111515;
+  color: var(--black);
 }
 
 h5 a {
   font-weight: 500;
-  color: #D9B002;
+  color: var(--gold);
   text-decoration: none;
 }
 
 /* General */
 .link {
   position: relative;
-  color: #D9B002;
+  color: var(--gold);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .link::before {
   content: " ";
   display: block;
   position: absolute;
-  border-bottom: solid 1px #D9B002;
+  border-bottom: solid 1px var(--gold);
   bottom: -1px;
   width: 0%;
   left: 0%;
@@ -81,7 +87,7 @@ h5 a {
 }
 
 .link:hover::before {
-  border-bottom: solid 1px #D9B002;
+  border-bottom: solid 1px var(--gold);
   width: 100%;
   left: 0%;
 }
