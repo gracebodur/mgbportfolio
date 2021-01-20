@@ -1,0 +1,39 @@
+.projects {
+    max-width: 1240px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #dcdcdc;
+    border: none;
+}
+
+.card span.card-title {
+    color: goldenrod;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+}
+
+.project-description {
+    padding: 9px 0;
+}
+
+.card-content {
+    color: black;
+}
+
+.link-list {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    list-style-type: none;
+}
