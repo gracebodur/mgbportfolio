@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Topbar from './Topbar/Topbar'
 import Intro from './Intro/Intro'
+import ProjectTitle from './ProjectTitle/ProjectTitle'
 import Projects from './Projects/Projects'
 
 function App () {
@@ -9,6 +10,7 @@ function App () {
 		<div>
 			<Topbar />
 			<Intro />
+			<ProjectTitle />
 			<Projects />
 		</div>
 	)
