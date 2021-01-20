@@ -1,4 +1,7 @@
 import gottalotto from './assets/gottalotto-frame.png'
+import startsmall from './assets/startsmall-frame.png'
+import scrabblesolver from './assets/scrabblesolver-frame.png'
+import jot from './assets/jot-desktop.png'
 
 const projectItems = [
     {
@@ -11,7 +14,7 @@ const projectItems = [
     },
     {
         id: 2,
-        imgUrl: gottalotto,
+        imgUrl: startsmall,
         title: 'StartSmall',
         description: "As a former teacher at a school that serves low-income communities, I experienced a lack of classroom supplies to help my students keep on learning. Start small is an independent project built to help fund classroom projects posted by students or teachers from across the country. The app shows classroom project listings that users can review based on 1 to 5 stars. It also provides an external link to the specific projects donating site.",
         liveLink: 'https://start-small.now.sh/',
@@ -19,7 +22,7 @@ const projectItems = [
     },
     {
         id: 3,
-        imgUrl: gottalotto,
+        imgUrl: scrabblesolver,
         title: 'Scrabble Solver',
         description: "Scrabble solver is a team project that is built and inspired by the popular word game Scrabble. The application produces valid words based on the provided scrabble letters or tiles. It shows dictionary definitions when clicking on valid word results and allows scrabble enthusiasts to sort word results by score or length.",
         liveLink: 'https://scrabble.codybarr.dev/',
@@ -27,9 +30,9 @@ const projectItems = [
     },
     {
         id: 4,
-        imgUrl: gottalotto,
+        imgUrl: jot,
         title: 'Jot',
-        description: "It is an independent project to showcase my knowledge of vanilla JavaScript, HTML5 and CSS3. Jot is a note taking app where users can add, edit and delete a note. It also allows users to change each notes's background color.",
+        description: "Jot is a note taking app where users can add, edit and delete a note. Notes are stored and access using users LocalStorage. A creative feature of Jot is that it enable users to change a notes background color by choosing 4 available colors from the tooltip. This project was built using JavaScript, HTML5 and CSS3.  ",
         liveLink: 'https://gracebodur.github.io/jot/',
         codeLink: 'https://github.com/gracebodur/jot'
     }
