@@ -1,8 +1,6 @@
 import React from 'react'
 
 function Project(props) {
-    console.table(props)
-  
     return (
         <section className='projects container'>
             <div className="row mb-5">
@@ -19,12 +17,12 @@ function Project(props) {
                             <div className="card-action project-links d-flex justify-content-around">
                                 <ul>
                                     <li className='link-list'>
-                                        <a aria-label='link to email' target='_blank' rel='noreferrer' href={props.codeLink}>Code Link</a>
+                                        <a aria-label='link to email' target='_blank' rel='noreferrer' href={props.codeLink}>Code</a>
                                     </li>
                                 </ul>
                                 <ul>
                                     <li className='link-list'>
-                                        <a aria-label='link to email' target='_blank' rel='noreferrer' href={props.liveLink}>Live Link</a>
+                                        <a aria-label='link to email' target='_blank' rel='noreferrer' href={props.liveLink}>Live</a>
                                     </li>
                                 </ul>
                             </div>

@@ -1,21 +1,27 @@
 import React from 'react'
 import './App.css'
-import Topbar from './Topbar/Topbar'
+import Navbar from './Navbar/Navbar'
 import Intro from './Intro/Intro'
+import About from './About/About'
 import ProjectHeader from './ProjectHeader/ProjectHeader'
 import Projects from './Projects/Projects'
 import Footer from './Footer/Footer'
 
-function App () {
-	return (
-		<div>
-			<Topbar />
-			<Intro />
-			<ProjectHeader/>
-			<Projects />
-			<Footer />
-		</div>
-	)
+class App extends React.Component {
+	render () {
+		return (
+			<div>
+				<Navbar />
+				<Intro />
+				<About />
+				<ProjectHeader />
+				<Projects />
+				<Footer />
+			</div>
+
+		)
+	}
+
 }
 
 export default App

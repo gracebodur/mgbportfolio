@@ -4,11 +4,11 @@
     padding: 16px 30px 15px;
 }
 
-.social {
+.nav {
     display: inline-block;
 }
 
-.social li {
+.nav li {
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all 0.2s;
@@ -17,19 +17,15 @@
     -o-transition: all 0.2s;
     transition: all 0.2s;
     list-style-type: none;
+    color: black;
 }
 
-.social li:hover {
+.nav li:hover {
     opacity: .5;
 }
 
-.social a {
+.nav a {
     margin-right: 30px;
-}
-
-.social-icons {
-    width: 20px;
-    height: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1130px) {
@@ -43,11 +39,11 @@
         padding: 12px 20px 11px;
     }
 
-    .social-list {
-        margin-right: 18px;
+    .nav a {
+        margin-right: 28px;
     }
 
-    .social li {
+    .nav li {
         transform: scale(0.95);
     }
 }

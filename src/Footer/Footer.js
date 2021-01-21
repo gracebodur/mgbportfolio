@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer () {
     return (
-        <section className='footer'>
+        <section className='footer'id='contact'>
             <ul className='footer-item'>
                 <a href="http://linkedin.com/in/mgracebodur" target='_blank' rel='noreferrer'>
                     <li className='footer-link'>linkedin</li>
