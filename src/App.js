@@ -8,6 +8,7 @@ import ProjectHeader from './ProjectHeader/ProjectHeader'
 import Projects from './Projects/Projects'
 import Footer from './Footer/Footer'
 
+
 class App extends React.Component {
 	render () {
 		return (

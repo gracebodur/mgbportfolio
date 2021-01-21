@@ -1,7 +1,9 @@
 import React from 'react'
+import Zoom from 'react-reveal/Zoom'
 
 function Project(props) {
     return (
+        <Zoom>
         <section className='projects container'>
             <div className="row mb-5">
                 <div className="col-md-12">
@@ -31,6 +33,7 @@ function Project(props) {
                 </div>
             </div>
         </section>
+        </Zoom>
     )
 
 }

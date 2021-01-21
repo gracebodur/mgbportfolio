@@ -5,6 +5,7 @@ html {
   text-rendering: optimizeLegibility;
   position: relative;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -12,6 +13,3 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
-
-/* General */
-
