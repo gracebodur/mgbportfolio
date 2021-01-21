@@ -31,7 +31,7 @@ function Navbar () {
                         projects
                     </Link>
                 </li>
-                <a href="https://docs.google.com/document/d/1gSfBTaGemXr8q5M3qIJ9E74bn7ojFcPs9axVP9qzbcM/edit?usp=sharing" target='_blank' rel='noreferrer'>
+                <a href="https://docs.google.com/document/d/1BC368Q1XUBKmTt6m_QfGkrA6QKX2XA0oinJLOfy0di0/edit?usp=sharing" target='_blank' rel='noreferrer'>
                     <li>resume</li>
                 </a>
             </ul>
