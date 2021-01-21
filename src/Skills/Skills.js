@@ -1,12 +1,13 @@
 import React from 'react'
 import { Element } from 'react-scroll'
 
-function About () {
+function Skills () {
     return (
-        <Element id='about' name='about'>
-            about
+        <Element id='skills' name='skills'>
+            skills
         </Element>
     )
+
 }
 
-export default About
+export default Skills

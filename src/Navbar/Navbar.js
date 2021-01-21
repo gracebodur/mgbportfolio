@@ -16,6 +16,14 @@ function Navbar () {
                     </Link>
                 </li>
                 <li>
+                    <Link to="skills"
+                        spy={true}
+                        smooth={true}
+                        duration={500}>
+                        skills
+                    </Link>
+                </li>
+                <li>
                     <Link to="projects"
                         spy={true}
                         smooth={true}
