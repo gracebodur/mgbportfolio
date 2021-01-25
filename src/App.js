@@ -6,7 +6,7 @@ import About from './About/About'
 import Skills from './Skills/Skills'
 import ProjectHeader from './ProjectHeader/ProjectHeader'
 import Projects from './Projects/Projects'
-import ScrollToTop from './ScrollToTop'
+import ScrollToTop from './ScrollToTop/ScrollToTop'
 import Footer from './Footer/Footer'
 
 
