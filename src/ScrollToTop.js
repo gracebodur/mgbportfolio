@@ -1,29 +1,48 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
+import scrollIcon from './assets/icon-scrolltop.svg'
 
-export default class ScrollToTop extends Component {
-  constructor(props) {
+export default function ScrollToTop () {
 
-  }
+    const [ isVisible, setisVisible ] = useState( false )
+    const scrollStyle = {
+        position: 'fixed',
+        bottom: '2.25rem',
+        right: '2rem',
+        cursor: 'pointer',
+    }
 
-  componentDidMount() {
+    // Show button when page is scrolled upto given distance
+    const toggleVisibility = () => {
+        if ( window.pageYOffset > 3000 )
+        {
+            setisVisible( true )
+        } else
+        {
+            setisVisible( false )
+        }
+    }
 
-  }
+    // Set the top cordinate to 0
+    // make scrolling smooth
+    const scrollToTop = () => {
+        window.scrollTo( {
+            top: 0,
+            behavior: "smooth"
+        } );
+    }
 
-  toggleVisibility() {
+    useEffect( () => {
+        window.addEventListener( 'scroll', toggleVisibility )
+    }, [] );
 
-  }
-
-  scrollToTop() {
-
-  }
-
-  render() {
     return (
-      <div className="scroll-to-top">
-          <div>
-           
-          </div>
-      </div>
+        <div className="scroll-to-top">
+            {isVisible && (
+                <div onClick={scrollToTop}>
+                    <img style={scrollStyle} src={scrollIcon} alt='Go to top' />
+                </div>
+            )}
+        </div>
     );
-  }
 }
+

@@ -6,6 +6,7 @@ import About from './About/About'
 import Skills from './Skills/Skills'
 import ProjectHeader from './ProjectHeader/ProjectHeader'
 import Projects from './Projects/Projects'
+import ScrollToTop from './ScrollToTop'
 import Footer from './Footer/Footer'
 
 
@@ -19,6 +20,7 @@ class App extends React.Component {
 				<Skills />
 				<ProjectHeader />
 				<Projects />
+				<ScrollToTop />
 				<Footer />
 			</div>
 

@@ -1,5 +1,5 @@
 import gottalotto from './assets/gottalotto-frame.png'
-import startsmall from './assets/startsmall-frame.png'
+import startsmall from './assets/StartSmall.png'
 import scrabblesolver from './assets/scrabblesolver-frame.png'
 import jot from './assets/jot-desktop.png'
 
