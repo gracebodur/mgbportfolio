@@ -17,9 +17,9 @@ class App extends React.Component {
 				<Navbar />
 				<Intro />
 				<About />
-				<Skills />
 				<ProjectHeader />
 				<Projects />
+				<Skills />
 				<ScrollToTop />
 				<Footer />
 			</div>

@@ -6,7 +6,7 @@ function Skills () {
 
     return ( <Element id='skills'
         name='skills' >
-        <h1>skills</h1>
+        <h1>skills and tools</h1>
         </Element>
     )
 }
