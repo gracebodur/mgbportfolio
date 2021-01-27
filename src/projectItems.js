@@ -1,4 +1,4 @@
-import gottalotto from './assets/gottalotto-frame.png'
+import gottalotto from './assets/GottaLotto.png'
 import startsmall from './assets/StartSmall.png'
 import scrabblesolver from './assets/scrabblesolver-frame.png'
 import jot from './assets/jot-desktop.png'
