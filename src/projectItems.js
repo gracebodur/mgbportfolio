@@ -1,7 +1,7 @@
 import gottalotto from './assets/GottaLotto.png'
 import startsmall from './assets/StartSmall.png'
-import scrabblesolver from './assets/scrabblesolver-frame.png'
-import jot from './assets/jot-desktop.png'
+import scrabblesolver from './assets/ScrabbleSolver.png'
+import jot from './assets/Jot.png'
 
 const projectItems = [
     {

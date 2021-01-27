@@ -10,7 +10,7 @@ function Project(props) {
                     <div className="card">
                         <div className='card-body'>
                             <div className="card-image">
-                                <img className="img-responsive col-md-12 project-img" src={props.imgUrl} alt='test' />
+                                <img className="img-responsive col-md-12 project-img" src={props.imgUrl} alt='app screenshot' />
                             </div>
                             <h4 className="card-title">{props.title}</h4>
                             <div className="card-content container">
