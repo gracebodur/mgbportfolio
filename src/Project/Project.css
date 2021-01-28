@@ -6,7 +6,7 @@
 }
 
 .box:hover {
-    background-color: #000;
+    background-color: var(--darkgray);
     cursor: pointer;
 }
 
@@ -15,7 +15,7 @@
 .box .box-content:before,
 .box .box-content:after {
     content: '';
-    background: #fff;
+    background: var(--gold);
     width: 50%;
     height: 4px;
     transform: scaleX(0);
@@ -65,7 +65,7 @@
 }
 
 .box .inner-content {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     width: 70%;
     opacity: 0;
@@ -85,7 +85,7 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     margin: 0 0 3px;
-    color: #fff;
+    color: var(--white);
 }
 
 .box .post {
@@ -113,20 +113,20 @@
 }
 
 .box .icon li a {
-    color: #fff;
+    color: var(--white);
     font-size: 18px;
     line-height: 32px;
     height: 35px;
     width: 35px;
-    border: 2px solid #fff;
+    border: 2px solid var(--white);
     border-radius: 10px 0 10px 0;
     display: block;
     transition: all 0.3s;
 }
 
 .box .icon li a:hover {
-   color: #9B870C;
-   background: #fff;
+   color: var(--gold);
+   background: var(--white);
    border-radius: 0 10px 0 10px;
 }
 

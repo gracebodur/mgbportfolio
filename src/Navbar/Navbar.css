@@ -17,7 +17,7 @@
     -o-transition: all 0.2s;
     transition: all 0.2s;
     list-style-type: none;
-    color: black;
+    color: var(--black);
 }
 
 .nav li:hover {

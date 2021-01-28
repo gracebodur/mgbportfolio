@@ -3,7 +3,10 @@
 
 :root {
   --black: #111515;
-  --gold: goldenrod;
+  --darkgray: #29303A;
+  --lightgray: #CACACA;
+  --white: #fff;
+  --gold: #D0992E;
 }
 
 
