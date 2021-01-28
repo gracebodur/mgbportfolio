@@ -15,7 +15,7 @@ const projectItems = [
     {
         id: 2,
         imgUrl: startsmall,
-        title: 'StartSmall',
+        title: 'Start Small',
         description: "As a former teacher at a school that serves low-income communities, I experienced a lack of classroom supplies to help my students keep on learning. Start small is an independent project built to help fund classroom projects posted by students or teachers from across the country. The app shows classroom project listings that users can review based on 1 to 5 stars. It also provides an external link to the specific projects donating site.",
         liveLink: 'https://start-small.now.sh/',
         codeLink: 'https://github.com/gracebodur/start-small'
