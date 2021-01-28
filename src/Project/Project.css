@@ -6,7 +6,7 @@
 }
 
 .box:hover {
-    background-color: black;
+    background-color: #000;
     cursor: pointer;
 }
 
@@ -57,13 +57,11 @@
 .box img {
     width: 100%;
     height: auto;
-    transform: scale3d(1, 1, 1);
-    transition: all 0.25s linear;
+    transition: all 1s ease-in-out;
 }
 
 .box:hover img {
-    opacity: 0.25;
-    transform: scale(1.25);
+    opacity: .08;
 }
 
 .box .inner-content {
@@ -127,7 +125,7 @@
 }
 
 .box .icon li a:hover {
-   color: #b31217;
+   color: #9B870C;
    background: #fff;
    border-radius: 0 10px 0 10px;
 }
