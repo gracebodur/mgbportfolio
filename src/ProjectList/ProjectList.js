@@ -1,8 +1,8 @@
 import React from 'react'
 import Zoom from 'react-reveal/Zoom'
-import './Project.css'
+import './ProjectList.css'
 
-function Project ( props ) {
+function ProjectList ( props ) {
     return (
         <Zoom>
             <div className="container">
@@ -29,4 +29,4 @@ function Project ( props ) {
 
 }
 
-export default Project
+export default ProjectList
