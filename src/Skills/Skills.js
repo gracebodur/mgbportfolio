@@ -1,91 +1,77 @@
 import React from 'react'
 import { Element } from 'react-scroll'
-import Fade from 'react-reveal/Fade';
+import Reveal from 'react-reveal/Reveal';
 import './Skills.css'
 
 function Skills () {
     return (
         <Element id='skills' name='skills'>
-            <div className='intro-skills text-center'>
-                <h4 className='intro-skills_title'>Skills and Tools</h4>
-            </div>
-            <div className='container text-center'>
-                <ul className='d-flex text-center justify-content-between list-inline'>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-html5-plain skills-icon html"></i>
-                            <p className='small'>HTML5</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-css3-plain devicon skills-icon"></i>
-                            <p>CSS3</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-javascript-plain devicon skills-icon"></i>
-                            <p>Javascript</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-jquery-plain devicon skills-icon"></i>
-                            <p>JQuery</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-react-original devicon skills-icon"></i>
-                            <p>React</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-express-original devicon skills-icon"></i>
-                            <p>Express</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-postgresql-plain devicon skills-icon"></i>
-                            <p>PostgreSQL</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-nodejs-plain devicon skills-icon"></i>
-                            <p>Node.js</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-git-plain devicon skills-icon"></i>
-                            <p>Git</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-github-plain devicon skills-icon"></i>
-                            <p>GitHub</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="devicon-bootstrap-plain devicon skills-icon"></i>
-                            <p>Bootsrap</p>
-                        </li>
-                    </Fade>
-                    <Fade left cascade>
-                        <li className='skills-list list-inline-item'>
-                            <i className="fab fa-figma devicon skills-icon"></i>
-                            <p>Figma</p>
-                        </li>
-                    </Fade>
-                </ul>
+            <Reveal top cascade>
+                <div className='skills-title text-center'>
+                    <h1>Skills and Tools</h1>
+                </div>
+                <div id="skills-item" className="skills-wrapper">
+                    <div className="skills-inner-wrapper">
+                        <div className="skills-icons container">
+                            <div>
+                                <i className="devicon-html5-plain"></i>
+                                <p>HTML5</p>
+                            </div>
 
-            </div>
+                            <div>
+                                <i className="devicon-javascript-plain"></i>
+                                <p>Javascript</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-css3-plain"></i>
+                                <p>CSS3</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-react-original"></i>
+                                <p>React</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-express-original"></i>
+                                <p>Express</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-postgresql-plain"></i>
+                                <p>PostgreSQL</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-nodejs-plain"></i>
+                                <p>Node.js</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-git-plain"></i>
+                                <p>Git</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-github-plain"></i>
+                                <p>GitHub</p>
+                            </div>
+
+                            <div>
+                                <i className="devicon-bootstrap-plain"></i>
+                                <p>Bootsrap</p>
+                            </div>
+
+                            <div>
+                                <i className="fab fa-figma figma"></i>
+                                <p>Figma</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </Reveal>
         </Element>
     )
 }
