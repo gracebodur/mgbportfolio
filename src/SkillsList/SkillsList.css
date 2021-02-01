@@ -2,10 +2,9 @@
 .skills-icons i {
     width: 1.8em;
     font-size: 4em;
-    color: var(--gold);
 }
 
-.skills-icons div:hover {
+.skills-icons:hover {
     background: linear-gradient(to right, #e9e9af, #ebc785, #f0ab36, #335275, #193347, #103258, #1a324b);
     background-size: 500% auto;
     background-clip: text;

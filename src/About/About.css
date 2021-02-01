@@ -1,4 +1,31 @@
-.about-paragraph {
-    max-width: 980px;
-    margin: 11px auto 28px;
+.about-section {
+    background-color: #f3f3f1;
+    position: relative;
+    padding: 120px 0 180px;
+}
+
+.about-title {
+    max-width: 500px;
+    margin-top: 40px;
+}
+
+.about-text {
+    max-width: 530px;
+}
+
+
+.avatar {
+width: 100%;
+height: auto;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+.grace-avatar {
+   width: 100%;
+   height: auto;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
 }

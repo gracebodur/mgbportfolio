@@ -1,12 +1,19 @@
 import React from 'react'
-import { Element } from 'react-scroll'
+import avatar from '../assets/avatar.png'
 import './About.css'
 
 function About () {
     return (
-        <Element id='about' name='about'>
-        <h4 className='about-paragraph'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati recusandae quas ut molestias? Sint odio consequatur at quam debitis id sapiente! Ad velit molestias totam, repellat distinctio vitae nobis repudiandae quidem dolor perferendis! Voluptatum aut aspernatur sint vitae ab quasi earum id velit dolore atque, aperiam esse magni maiores iusto quibusdam voluptas dignissimos iure! Saepe ut quae dolor minima asperiores iusto debitis explicabo enim voluptas nemo, reiciendis cum praesentium aspernatur soluta eos, in aperiam, ex aliquid optio odio ad rem recusandae non? Sed quisquam delectus repellat a. Optio blanditiis, iste illo voluptatibus incidunt adipisci minima eum autem nesciunt quibusdam vel.</h4>
-        </Element>
+       <section className="about-section" id='about'>
+		<img className="flag" src={avatar} alt='test'/>
+		<div className="container-s">
+			<h2 className="about-title">Working remotely, based in North Carolina</h2>
+			<h5 className="about-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi magni maxime odit amet fugit esse. Blanditiis voluptatibus natus tenetur officiis. Autem tempora ducimus labore, velit est culpa natus similique amet consectetur error assumenda voluptas laudantium dolorum in nostrum minima alias nemo dicta, sed hic nisi. Dignissimos, nulla voluptatibus! Accusantium, impedit.</h5>
+		</div>
+		<div className="avatar">
+			<img className="grace-avatar" src={avatar} alt='test'/>
+		</div>
+	</section>
     )
 }
 
