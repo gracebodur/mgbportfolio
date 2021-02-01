@@ -1,29 +1,8 @@
-.skills-icons {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 0.5em;
-}
 
 .skills-icons i {
     width: 1.8em;
     font-size: 4em;
-    padding: 0.3em;
-    margin: 0 auto;
-}
-
-.skills-icons p {
-    margin: 0.5em auto;
-    font-size: 1em;
-}
-
-.skills-icons div {
-    margin: 1.2em;
+    color: var(--gold);
 }
 
 .skills-icons div:hover {
@@ -48,6 +27,7 @@
 
 .figma {
     padding: 0em !important;
+    display: contents !important;
 }
 
 

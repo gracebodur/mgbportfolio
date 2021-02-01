@@ -12,7 +12,9 @@ function Skills () {
             <div className='skills-title text-center'>
                 <h1>Skills and Tools</h1>
             </div>
-            {skillsData}
+            <div className='container text-center d-flex justify-content-around'>
+                {skillsData}
+            </div>
         </Element>
     )
 }
