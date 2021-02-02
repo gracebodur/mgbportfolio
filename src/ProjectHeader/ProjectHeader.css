@@ -1,15 +1,14 @@
 .project-header {
-    padding-top: 140px;
-    padding-bottom: 140px;
+    margin: 115px auto 145px;
     text-align: center;
 }
 
 .header-title {
-    max-width: 940px;
+    max-width: 1100px;
     margin: auto;
-    font-size: 120px;
-    line-height: 114px;
-    letter-spacing: -6.5px;
+    font-size: 138px;
+    line-height: 138px;
+    letter-spacing: -5px;
 }
 
 .subheader {
@@ -23,7 +22,6 @@
         line-height: 10.3vw;
         letter-spacing: -0.6vw;
     }
-
     .subheader {
         max-width: 750px;
         margin: 20px auto 20px;
@@ -35,13 +33,11 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-
     .header-title {
         font-size: 10.8vw;
         line-height: 10.3vw;
         letter-spacing: -0.6vw;
     }
-
     .subheader {
         max-width: 750px;
         margin: 20px auto 20px;
@@ -53,7 +49,6 @@
         padding-top: 100px !important;
         padding-bottom: 100px !important;
     }
-
     .subheader {
         max-width: 690px;
     }
@@ -63,14 +58,12 @@
     .project-header {
         padding: 75px 30px 70px;
     }
-
     .header-title {
         font-size: 58px;
         line-height: 58px;
         letter-spacing: -3.4px;
         max-width: 500px;
     }
-
     .subheader {
         margin: 15px auto 20px;
         max-width: 620px;

@@ -52,6 +52,7 @@
         line-height: 42px;
     }
 }
+
 @media (min-width: 768px) and (max-width: 860px) {
     .intro {
         margin: 75px auto 90px;
@@ -90,3 +91,4 @@
         margin: 15px auto 20px;
     }
 }
+
