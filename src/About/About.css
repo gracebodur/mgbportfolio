@@ -1,7 +1,20 @@
-.about-section {
+.about-wrapper {
     background-color: #f3f3f1;
     position: relative;
     padding: 120px 0 180px;
+}
+
+.about-section {
+   position: relative;
+   margin: 65px auto 0;
+   max-width: 1180px;
+   text-align: center;
+}
+
+.grace-avatar {
+    position: absolute;
+    max-width: 960px;
+    left: 58%;
 }
 
 .about-title {
@@ -11,21 +24,4 @@
 
 .about-text {
     max-width: 530px;
-}
-
-
-.avatar {
-width: 100%;
-height: auto;
--webkit-border-radius: 6px;
--moz-border-radius: 6px;
-border-radius: 6px;
-}
-
-.grace-avatar {
-   width: 100%;
-   height: auto;
-   -webkit-border-radius: 6px;
-   -moz-border-radius: 6px;
-   border-radius: 6px;
 }
