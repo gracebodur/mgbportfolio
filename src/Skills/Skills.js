@@ -13,9 +13,7 @@ function Skills() {
 				<h1 className='skills-title'>Skills and Tools</h1>
 			</div>
 			<div className='container text-center d-flex justify-content-around skills-wrapper'>
-				<div className='row'>
                     {skillsData}
-                </div>
 			</div>
 		</section>
 	)
