@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f92bcc5f.chunk.css",
+    "main.js": "/static/js/main.07331bd1.chunk.js",
+    "main.js.map": "/static/js/main.07331bd1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dd27922e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dd27922e.js.map",
+    "static/css/2.43b2b750.chunk.css": "/static/css/2.43b2b750.chunk.css",
+    "static/js/2.f161d74b.chunk.js": "/static/js/2.f161d74b.chunk.js",
+    "static/js/2.f161d74b.chunk.js.map": "/static/js/2.f161d74b.chunk.js.map",
+    "static/js/3.5fa072ce.chunk.js": "/static/js/3.5fa072ce.chunk.js",
+    "static/js/3.5fa072ce.chunk.js.map": "/static/js/3.5fa072ce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.f92bcc5f.chunk.css.map": "/static/css/main.f92bcc5f.chunk.css.map",
+    "static/js/2.f161d74b.chunk.js.LICENSE.txt": "/static/js/2.f161d74b.chunk.js.LICENSE.txt",
+    "static/media/GottaLotto.a5256fcd.png": "/static/media/GottaLotto.a5256fcd.png",
+    "static/media/Jot.051bd4d0.png": "/static/media/Jot.051bd4d0.png",
+    "static/media/ScrabbleSolver.71cc2346.png": "/static/media/ScrabbleSolver.71cc2346.png",
+    "static/media/StartSmall.9bf4c403.png": "/static/media/StartSmall.9bf4c403.png",
+    "static/media/avatar.a7cb61fe.webp": "/static/media/avatar.a7cb61fe.webp",
+    "static/media/icon-scrolltop.b7cece10.svg": "/static/media/icon-scrolltop.b7cece10.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd27922e.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.f161d74b.chunk.js",
+    "static/css/main.f92bcc5f.chunk.css",
+    "static/js/main.07331bd1.chunk.js"
+  ]
+}
