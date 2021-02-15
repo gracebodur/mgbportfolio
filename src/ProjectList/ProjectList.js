@@ -15,8 +15,8 @@ function ProjectList ( props ) {
                                     <h3 className="title">{props.title}</h3>
                                     <span className="post">{props.description}</span>
                                     <ul className="icon">
-                                        <li><a href={props.codeLink}><i className="fas fa-code"></i></a></li>
-                                        <li><a href={props.liveLink}><i className="fas fa-link"></i></a></li>
+                                        <li><a href={props.codeLink} target='_blank' rel="noreferrer"><i className="fas fa-code" ></i></a></li>
+                                        <li><a href={props.liveLink} target='_blank' rel="noreferrer"><i className="fas fa-link" ></i></a></li>
                                     </ul>
                                 </div>
                             </div>
