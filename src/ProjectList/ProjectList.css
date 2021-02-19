@@ -91,9 +91,9 @@
 .box .post {
     font-size: 16px;
     letter-spacing: 1px;
-     text-transform: capitalize;
-     margin: 0 0 12px;
-     display: block;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+    display: block;
 }
 
 .box .icon {
@@ -125,13 +125,34 @@
 }
 
 .box .icon li a:hover {
-   color: var(--gold);
-   background: var(--white);
-   border-radius: 0 10px 0 10px;
+    color: var(--gold);
+    background: var(--white);
+    border-radius: 0 10px 0 10px;
 }
 
 @media only screen and (max-width:990px) {
     .box {
         margin: 0 0 30px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .box .title {
+        font-size: 20px;
+    }
+
+    .box .post {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .box .title {
+        font-size: 15px;
+    }
+
+    .box .post {
+        font-size: 12px;
+        letter-spacing: 0;
     }
 }

@@ -5,10 +5,10 @@
 }
 
 .about-section {
-   position: relative;
-   margin: 65px auto 0;
-   max-width: 1180px;
-   text-align: center;
+    position: relative;
+    margin: 65px auto 0;
+    max-width: 1180px;
+    text-align: center;
 }
 
 .grace-avatar {
@@ -22,13 +22,28 @@
     margin-top: 40px;
 }
 
-@media (max-width: 767px) {
-   .about-title {
-       max-width: 300px;
-       margin-top: 0;
-   }
-}
-
 .about-text {
     max-width: 530px;
 }
+
+@media (max-width: 767px) {
+    .about-wrapper {
+        padding: 80px 0 40px;
+    }
+
+    .about-title {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .grace-avatar {
+        width: 50%;
+        left: 25%;
+        top: -20%;
+    }
+
+    .container-s {
+        padding-top: 50%;
+    }
+}
+

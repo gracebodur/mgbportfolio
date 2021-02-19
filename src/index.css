@@ -95,4 +95,34 @@ h5 a {
   left: 0%;
 }
 
+@media (max-width: 767px) {
+  /* Fonts */
 
+  h1 {
+    word-spacing: 0;
+  }
+
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+
+  h3 {
+    font-size: 21px;
+    line-height: 27px;
+    letter-spacing: -0.4px;
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+  }
+
+  h5 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+}
