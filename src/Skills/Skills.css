@@ -12,7 +12,7 @@
 }
 
 .skills-wrapper {
-     margin: 115px auto 145px;
+    margin: 115px auto 145px;
 }
 
 @media (min-width: 768px) and (max-width: 1130px) {
@@ -23,7 +23,7 @@
     }
 }
 
-@media (min-width: 521px) and (max-width: 767px) { 
+@media (min-width: 521px) and (max-width: 767px) {
     .skills-title {
         font-size: 11.1vw !important;
         line-height: 11.1vw !important;
@@ -32,10 +32,27 @@
 }
 
 @media (max-width: 767px) {
+    #skills {
+        margin: 40px auto 40px;
+    }
+
+    .skills-wrapper {
+        flex-wrap: wrap;
+        margin: 40px auto;
+    }
+
     .skills-title {
         font-size: 58px;
         line-height: 58px;
         letter-spacing: -3.4px;
         max-width: 500px;
+    }
+
+    .skills-icons {
+        font-size: .80em;
+    }
+
+    .lead {
+        font-size: 1rem;
     }
 }
