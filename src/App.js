@@ -7,10 +7,7 @@ import Skills from './Skills/Skills'
 import ProjectHeader from './ProjectHeader/ProjectHeader'
 import Projects from './Projects/Projects'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
-import Resume from './Resume/Resume'
 import Footer from './Footer/Footer'
-
-
 
 class App extends React.Component {
 	render () {
@@ -23,7 +20,6 @@ class App extends React.Component {
 				<ProjectHeader />
 				<Projects />
 				<ScrollToTop />
-				<Resume />
 				<Footer />
 			</div>
 

@@ -14,7 +14,7 @@ function Footer () {
                 <a href="mailto:mgracebodur@gmail.com" target='_blank' rel='noreferrer'>
                     <li className='footer-link'>email</li>
                 </a>
-                <a href="https://docs.google.com/document/d/1BC368Q1XUBKmTt6m_QfGkrA6QKX2XA0oinJLOfy0di0/edit?usp=sharing" target='_blank' rel='noreferrer'>
+                <a href="https://drive.google.com/file/d/1dXknloXwXyLT3dzBkGkrBmdLi2YJoWjh/view?usp=sharing" target='_blank' rel='noreferrer'>
                     <li className='footer-link'>resume
                     </li>
                 </a>
