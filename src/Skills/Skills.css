@@ -1,6 +1,7 @@
 #skills {
     margin: 115px auto 145px;
     text-align: center;
+    padding: 0 20px;
 }
 
 .skills-title {
@@ -49,7 +50,7 @@
     }
 
     .skills-icons {
-        font-size: .80em;
+        font-size: 1em;
     }
 
     .lead {

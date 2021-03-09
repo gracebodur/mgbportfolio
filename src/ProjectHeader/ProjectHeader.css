@@ -1,6 +1,7 @@
 .project-header {
     margin: 115px auto 145px;
     text-align: center;
+    padding: 0 20px;
 }
 
 .header-title {
@@ -55,9 +56,6 @@
 }
 
 @media (max-width: 767px) {
-    .project-header {
-        padding: 75px 30px 70px;
-    }
     .header-title {
         font-size: 58px;
         line-height: 58px;
@@ -67,5 +65,11 @@
     .subheader {
         margin: 15px auto 20px;
         max-width: 620px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .project-header {
+        margin: 0;
     }
 }

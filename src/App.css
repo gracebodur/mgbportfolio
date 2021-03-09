@@ -1,15 +1,2 @@
-/* Main */
 
-html {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  position: relative;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
 
-body {
-  display: block;
-  width: 100%;
-  overflow-x: hidden;
-}
