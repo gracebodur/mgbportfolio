@@ -15,7 +15,7 @@ function Projects () {
 
     return (
         <section className='projects container' >
-            <Element id='projects' name='projects'>
+            <Element name='projects'>
                 {projectData}
             </Element>
         </section>

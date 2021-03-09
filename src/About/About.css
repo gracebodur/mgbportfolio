@@ -9,6 +9,7 @@
     margin: 65px auto 0;
     max-width: 1180px;
     text-align: center;
+    padding: 0 20px;
 }
 
 .grace-avatar {
@@ -46,4 +47,3 @@
         padding-top: 40%;
     }
 }
-
