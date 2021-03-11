@@ -4,11 +4,11 @@ import './About.css'
 
 function About () {
     return (
-        <div className='about-wrapper' id='about'>
+        <div className='about-wrapper'>
             <section className="about-section">
                 <img className="grace-avatar" src={avatar} alt='Marie Grace Bodur profile pic' />
                 <div className="container-s">
-                    <h2 className="about-title text-left">Working remotely, based in North Carolina</h2>
+                    <h2 className="about-title text-left" id='about'>Working remotely, based in North Carolina</h2>
                     <p className='about-text text-left lead'>Hello World!</p>
                     <p className='about-text text-left lead'>I'm Grace Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, modi.</p>
                     <p className="about-text text-left lead">I see myself as a full-stack web developer with a strength in the front-end and a passion for helping others, clean code and great UI/UX. I love being a developer because I can combine my creativity and analytical traits to break down complex problems and solve them efficiently. I believe that creating eloquently designed tools and applications can be an enormous driver in improving and growing an organization.I can work closely with other team members, but I work just as well independently. I work comfortably under pressure.</p>

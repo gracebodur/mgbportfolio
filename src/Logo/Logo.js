@@ -1,10 +1,12 @@
-import logo from '../assets/logo.svg'
 import './Logo.css'
 
 const Logo = () => {
     return (
         <section className='mgb-logo'>
-            <img className='logo' src={logo} alt="Grace's logo" />
+            <a aria-current='page' title='Home - Marie Grace Bodur' href='#about'>
+                <div className='grace-logo'>
+                </div>
+            </a>
         </section>
     );
 }

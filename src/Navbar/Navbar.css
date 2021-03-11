@@ -28,6 +28,10 @@
     margin-right: 30px;
 }
 
+.top-left {
+   text-align: left;
+}
+
 @media (min-width: 768px) and (max-width: 1130px) {
     .topbar {
         padding: 14px 30px 13px;
