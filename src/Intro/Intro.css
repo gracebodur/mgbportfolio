@@ -1,5 +1,5 @@
 .intro {
-    margin: 115px auto 145px;
+    margin: 15px auto 145px;
     text-align: center;
     padding: 0 20px;
 }
@@ -38,7 +38,7 @@
 @media (min-width: 768px) and (max-width: 1130px) {
     .intro {
         padding: 0 30px;
-        margin: 95px auto 115px;
+        margin: 10px auto 115px;
     }
 
     .intro-title {
@@ -56,7 +56,7 @@
 
 @media (min-width: 768px) and (max-width: 860px) {
     .intro {
-        margin: 75px auto 90px;
+        margin: 5px auto 90px;
     }
 
     .intro-text {
@@ -79,7 +79,7 @@
 
 @media (max-width: 767px) {
     .intro {
-        margin: 40px auto 40px;
+        margin: 0px auto 40px;
     }
 
     .intro-title {
