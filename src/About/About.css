@@ -14,7 +14,8 @@
 
 .grace-avatar {
     position: absolute;
-    max-width: 960px;
+    max-width: 500px;
+    top: 25%;
     left: 58%;
 }
 
@@ -40,7 +41,7 @@
     .grace-avatar {
         width: 50%;
         left: 25%;
-        top: -20%;
+        top: -10%;
     }
 
     .container-s {

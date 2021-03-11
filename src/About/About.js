@@ -1,12 +1,12 @@
 import React from 'react'
-// import avatar from '../assets/avatar.webp'
+import avatar from '../assets/profile.png'
 import './About.css'
 
 function About () {
     return (
         <div className='about-wrapper' id='about'>
             <section className="about-section">
-                <img className="grace-avatar" src='https://placeholder.pics/svg/400x650' alt='Marie Grace Bodur profile pic' />
+                <img className="grace-avatar" src={avatar} alt='Marie Grace Bodur profile pic' />
                 <div className="container-s">
                     <h2 className="about-title text-left">Working remotely, based in North Carolina</h2>
                     <p className='about-text text-left lead'>Hello World!</p>
