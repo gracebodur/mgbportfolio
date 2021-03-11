@@ -11,7 +11,7 @@ function Navbar () {
                     <Link to="about"
                         spy={true}
                         smooth={true}
-                        duration={500}>
+                        duration={100}>
                         about
                     </Link>
                 </li>
@@ -19,7 +19,7 @@ function Navbar () {
                     <Link to="skills"
                         spy={true}
                         smooth={true}
-                        duration={500}>
+                        duration={100}>
                         skills
                     </Link>
                 </li>
@@ -27,7 +27,7 @@ function Navbar () {
                     <Link to="projects"
                         spy={true}
                         smooth={true}
-                        duration={500}>
+                        duration={100}>
                         projects
                     </Link>
                 </li>
