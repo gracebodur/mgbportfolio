@@ -10,7 +10,7 @@ const projectItems = [
         title: 'GottaLotto',
         description: "GottaLotto is for lotto enthusiasts to have plain old fun in guessing the winning numbers for each Saturday's PowerBall 's drawing. Collaborated with team members to plan website development, converting mockups into usable web presence with HTML, CSS, JavaScript, React.js, Node, PostgreSQL, and Cron Job coding.",
         liveLink: 'https://malekandgrace-gottalotto.now.sh/',
-        codeLink: 'https://github.com/gracebodur/gottalotto-client'
+        codeLink: 'https://github.com/gracebodur/gottalotto-client',
     },
     {
         id: 2,

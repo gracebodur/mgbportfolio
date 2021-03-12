@@ -6,10 +6,12 @@ function ProjectList ( props ) {
     return (
         <Zoom>
             <div className="container">
-                <div className="row mb-5">
+                <div className="row mb-5 box-container">
                     <div className="col-md-12">
                         <div className="box">
-                            <img src={props.imgUrl} alt='project screentshot' />
+                            <a href={props.liveLink} target='_blank' rel="noreferrer">
+                                <img src={props.imgUrl} alt='project screentshot' />
+                            </a>
                             <div className="box-content">
                                 <div className="inner-content">
                                     <h3 className="title">{props.title}</h3>
