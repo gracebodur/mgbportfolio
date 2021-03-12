@@ -17,7 +17,7 @@ const projectItems = [
         imgUrl: startsmall,
         title: 'Start Small',
         description: "Start small is an individual capstone project built to help fund classroom projects posted by students or teachers from across the country. The app shows classroom project listings that users can review based on 1 to 5 stars. It also provides an external link to the specific projects donating site. Built with HTML, CSS, JavaScript, React.js, Node.js, Express.js, PostgreSQL. Tested using Enzyme, Mocha and Chai testing libraries.",
-        liveLink: 'https://start-small.now.sh/',
+        liveLink: 'https://start-small-gracebodur.vercel.app/',
         codeLink: 'https://github.com/gracebodur/start-small'
     },
     {
