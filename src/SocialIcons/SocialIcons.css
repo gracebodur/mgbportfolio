@@ -1,0 +1,24 @@
+.social-icons {
+    display: flex;
+}
+
+.social-link {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 425px) {
+    .social-icons {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .social-icons {
+        text-align: center;
+    }
+}

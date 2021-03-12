@@ -4,7 +4,7 @@ import './Navbar.css'
 
 function Navbar() {
 	return (
-		<nav className='topbar'>
+		<nav className='topbar' id='home'>
 			<ul className='nav'>
 				<li>
 					<Link to='about' spy={true} smooth={true} duration={100}>

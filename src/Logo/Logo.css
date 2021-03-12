@@ -1,38 +1,11 @@
 .mgb-logo {
     padding: 16px 30px 15px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .grace-logo {
-    background-image: url(../assets/mgb-logo.svg);
-    max-width: 80px;
-    height: 80px;
-    background-repeat: no-repeat;
-    -webkit-animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: rotate-90-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-
-@-webkit-keyframes rotate-90-cw {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-
-    100% {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
-}
-
-@keyframes rotate-90-cw {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-
-    100% {
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-    }
+    height: 50px;
 }
 
 @media (max-width: 425px) {
@@ -42,6 +15,10 @@
 }
 
 @media (max-width: 375px) {
+    .mgb-logo {
+        justify-content: center;
+    }
+
     .grace-logo {
          margin: 0 auto;
     }
