@@ -3,6 +3,6 @@ import Navbar from './Navbar'
 
 test('renders learn react link', () => {
 	render(<Navbar />)
-	const linkElement = screen.getByText(/about skills projects resume/i)
+	const linkElement = screen.getByText(/about/i)
 	expect(linkElement).toBeInTheDocument()
 })
