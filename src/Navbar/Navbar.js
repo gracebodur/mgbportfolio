@@ -22,7 +22,7 @@ function Navbar() {
 					</Link>
 				</li>
 				<a
-					href = 'https://drive.google.com/file/d/1DKlArAdhyqiqv0-GHUf285iBL6oRXN55/view?usp=sharing'
+					href = 'https://drive.google.com/file/d/1R6-zZ11e09jmKfGqEIXUOG5txmcOuDv-/view?usp=sharing'
 					target='_blank'
 					rel='noreferrer'>
 					<li>resume</li>
