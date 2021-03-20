@@ -4,8 +4,8 @@ import './About.css'
 
 function About () {
     return (
-        <div className='about-wrapper'>
-            <section className="about-section">
+        <section className='about-wrapper'>
+            <div className="about-section">
                 <img className="grace-avatar" src={avatar} alt='Marie Grace Bodur profile pic' />
                 <div className="container-s">
                     <h2 className="about-title text-left" id='about'>Working remotely, based in North Carolina</h2>
@@ -13,8 +13,8 @@ function About () {
                     <p className='about-text text-left lead'>I enjoy traveling and learning about new cultures, new languages and new ways of thinking. It has made me an empathetic and open-minded individual, who can grasp new concepts quickly and adapt easily to changes in the work environment.</p>
                     <p className='about-text text-left lead'>I'm excited to <a href="https://www.linkedin.com/in/mgracebodur/" className='link' target='_blank' rel='noreferrer' alt='connect with linkedin' style={{textDecoration: 'none', color: 'goldenrod'}}>connect</a> with companies and colleagues that inspire me!</p>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     )
 }
 
