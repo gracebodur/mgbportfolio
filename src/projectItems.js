@@ -2,6 +2,7 @@ import gottalotto from './assets/GottaLotto.png'
 import startsmall from './assets/StartSmall.png'
 import scrabblesolver from './assets/ScrabbleSolver.png'
 import jot from './assets/Jot.png'
+import quizapp from './assets/QuizApp.png'
 
 const projectItems = [
     {
@@ -30,9 +31,17 @@ const projectItems = [
     },
     {
         id: 4,
+        imgUrl: quizapp,
+        title: 'Quiz App',
+        description: "It has dominated global headlines for weeks, and you could be forgiven for feeling overwhelmed by the amount of information you’ve seen, heard and read about the coronavirus outbreak. Test your knowledge with our coronavirus quiz – and you may learn something along the way.",
+        liveLink: 'https://gracebodur.github.io/covid-19-quizapp/',
+        codeLink: 'https://github.com/gracebodur/covid-19-quizapp.git'
+    },
+    {
+        id: 5,
         imgUrl: jot,
         title: 'Jot',
-        description: "A note taking app based on Google's Keep where users can add, edit and delete a note. Notes are stored and access using LocalStorage. Planned, designed, implemented, developed and converted mockups into usable web presence with HTML, CSS and JavaScript coding.",
+        description: "A note taking app based on Google's Keep note-taking service where users can add, edit and delete a note. Notes are stored and access using LocalStorage so created notes will persist even after the browser window is closed.",
         liveLink: 'https://gracebodur.github.io/jot/',
         codeLink: 'https://github.com/gracebodur/jot'
     }
