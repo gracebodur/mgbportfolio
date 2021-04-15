@@ -1,8 +1,7 @@
-import React from 'react'
 import { Link } from 'react-scroll'
 import './Navbar.css'
 
-function Navbar() {
+const Navbar = () => {
 	return (
 		<nav className='topbar' id='home'>
 			<ul className='nav'>

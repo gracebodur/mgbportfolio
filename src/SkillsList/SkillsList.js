@@ -1,7 +1,6 @@
-import React from 'react'
 import './SkillsList.css'
 
-function SkillsList ( props ) {
+const SkillsList = (props) => {
     return (
         <div className="skills-icons">
             <i className={props.iconUrl}></i>

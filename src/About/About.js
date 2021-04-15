@@ -1,8 +1,7 @@
-import React from 'react'
 import avatar from '../assets/profile.png'
 import './About.css'
 
-function About () {
+const About = () => {
     return (
         <section className='about-wrapper'>
             <div className="about-section">

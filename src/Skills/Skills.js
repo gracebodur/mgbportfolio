@@ -1,9 +1,8 @@
-import React from 'react'
 import SkillsList from '../SkillsList/SkillsList'
 import skillsItems from '../skillsItems'
 import './Skills.css'
 
-function Skills() {
+const Skills = () => {
 	const skillsData = skillsItems.map((item) => (
 		<SkillsList key={item.id} iconUrl={item.iconUrl} iconName={item.iconName} />
 	))

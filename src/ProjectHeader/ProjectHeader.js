@@ -1,7 +1,6 @@
-import React from 'react'
 import './ProjectHeader.css'
 
-function ProjectHeader () {
+const ProjectHeader = () => {
     return (
         <section className='project-header' id='projects'>
             <h1 className='header-title'>Projects</h1>

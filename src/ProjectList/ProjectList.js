@@ -1,8 +1,7 @@
-import React from 'react'
 import Zoom from 'react-reveal/Zoom'
 import './ProjectList.css'
 
-function ProjectList ( props ) {
+const ProjectList = (props) => {
     return (
         <Zoom>
             <div className="container">
@@ -18,6 +17,7 @@ function ProjectList ( props ) {
                                     <span className="post">{props.description}</span>
                                     <ul className="icon">
                                         <li><a href={props.codeLink} target='_blank' rel="noreferrer">Code</a></li>
+                                        
                                         <li><a href={props.liveLink} target='_blank' rel="noreferrer">Site</a></li>
                                     </ul>
                                 </div>

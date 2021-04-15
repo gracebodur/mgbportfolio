@@ -1,7 +1,6 @@
-import React from 'react'
 import './Intro.css'
 
-function Intro () {
+const Intro = () => {
     return (
         <section className='intro'>
             <h1 className='intro-title'>Frontend Developer</h1>
