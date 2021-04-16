@@ -1,4 +1,5 @@
 import { Link } from 'react-scroll'
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -20,12 +21,9 @@ const Navbar = () => {
 						projects
 					</Link>
 				</li>
-				<a
-					href = 'https://drive.google.com/file/d/1R6-zZ11e09jmKfGqEIXUOG5txmcOuDv-/view?usp=sharing'
-					target='_blank'
-					rel='noreferrer'>
+				<NavLink to='/resume'>
 					<li>resume</li>
-				</a>
+				</NavLink>
 			</ul>
 		</nav>
 	)
