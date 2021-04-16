@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import SocialIcons from '../SocialIcons/SocialIcons'
 import mgbLogo from '../assets/mgb-logo.svg'
 import './Logo.css'
@@ -5,9 +6,9 @@ import './Logo.css'
 const Logo = () => {
     return (
         <section className='mgb-logo'>
-            <a aria-current='page' title='Home - Marie Grace Bodur' href='#home'>
+            <Link to='/' aria-current='page' title='Home - Marie Grace Bodur'>
                 <img src={mgbLogo} alt="Grace's logo" className='grace-logo'/>
-            </a>
+            </Link>
             <SocialIcons />
         </section>
     );

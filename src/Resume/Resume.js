@@ -1,5 +1,9 @@
+import Logo from '../Logo/Logo'
+
 const Resume = () => {
 	return (
+		<>
+		<Logo />
 		<div
 			style={{
 				position: 'relative',
@@ -28,6 +32,7 @@ const Resume = () => {
 				src='https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEbwHEOQOY&#x2F;view?embed'
 				title="Marie Grace Bodur's Resume"></iframe>
 		</div>
+		</>
 	)
 }
 
