@@ -16,43 +16,53 @@ const skillsItems = [
     },
     {
         id: 4,
+        iconUrl: 'devicon-jquery-plain',
+        iconName: 'jQuery',
+    },
+    {
+        id: 5,
         iconUrl: 'devicon-react-original',
         iconName: 'React',
     },
     {
-        id: 5,
+        id: 6,
         iconUrl: 'devicon-express-original',
         iconName: 'Express',
     },
     {
-        id: 6,
+        id: 7,
         iconUrl: 'devicon-postgresql-plain',
         iconName: 'PostgreSQL',
     },
     {
-        id: 7,
+        id: 8,
         iconUrl: 'devicon-nodejs-plain',
         iconName: 'Node.js',
     },
     {
-        id: 8,
+        id: 9,
         iconUrl: 'devicon-git-plain',
         iconName: 'Git',
     },
     {
-        id: 9,
+        id: 10,
         iconUrl: 'devicon-github-plain',
         iconName: 'Github',
     },
     {
-        id: 10,
+        id: 11,
         iconUrl: 'devicon-bootstrap-plain',
         iconName: 'Bootstrap',
     },
     {
-        id: 11,
+        id: 12,
         iconUrl: 'fab fa-figma figma',
         iconName: 'Figma',
+    },
+    {
+        id: 13,
+        iconUrl: 'devicon-android-plain',
+        iconName: 'Android Studio',
     }
 ]
 
