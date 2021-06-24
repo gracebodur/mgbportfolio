@@ -33,7 +33,7 @@ const projectItems = [
         id: 4,
         imgUrl: quizapp,
         title: 'Quiz App',
-        description: "It has dominated global headlines for weeks, and you could be forgiven for feeling overwhelmed by the amount of information you’ve seen, heard and read about the coronavirus outbreak. Test your knowledge with our coronavirus quiz – and you may learn something along the way.",
+        description: "It has dominated global headlines for weeks, and you could be forgiven for feeling overwhelmed by the amount of information you’ve seen, heard and read about the coronavirus outbreak. Test your knowledge with our coronavirus quiz – and you may learn something along the way. Built using HTML, CSS, jQuery and JavaScript",
         liveLink: 'https://gracebodur.github.io/covid-19-quizapp/',
         codeLink: 'https://github.com/gracebodur/covid-19-quizapp.git'
     },
@@ -41,7 +41,7 @@ const projectItems = [
         id: 5,
         imgUrl: jot,
         title: 'Jot',
-        description: "A note taking app based on Google's Keep note-taking service where users can add, edit and delete a note. Notes are stored and access using LocalStorage so created notes will persist even after the browser window is closed.",
+        description: "A note taking app based on Google's Keep note-taking service where users can add, edit and delete a note. Notes are stored and access using LocalStorage so created notes will persist even after the browser window is closed. Built using HTML, CSS and JavaScript.",
         liveLink: 'https://gracebodur.github.io/jot/',
         codeLink: 'https://github.com/gracebodur/jot'
     }
