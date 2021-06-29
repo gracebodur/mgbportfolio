@@ -1,5 +1,5 @@
 import SkillsList from '../../components/SkillsList/SkillsList'
-import skillsItems from '../../skillsItems'
+import skillsItems from '../../data/skillsItems'
 import './Skills.css'
 
 const Skills = () => {
