@@ -1,6 +1,6 @@
 import { Element } from 'react-scroll'
-import ProjectList from '../ProjectList/ProjectList'
-import projectItems from '../projectItems'
+import ProjectList from '../../components/ProjectList/ProjectList'
+import projectItems from '../../projectItems'
 import './Projects.css'
 
 

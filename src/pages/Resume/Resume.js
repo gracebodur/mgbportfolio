@@ -1,4 +1,4 @@
-import Logo from '../Logo/Logo'
+import Logo from '../../components/Logo/Logo'
 
 const Resume = () => {
 	return (
@@ -37,3 +37,4 @@ const Resume = () => {
 }
 
 export default Resume
+

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import scrollIcon from '../assets/icon-scrolltop.svg'
+import scrollIcon from '../../assets/icon-scrolltop.svg'
 import './ScrollToTop.css'
 
 export default function ScrollToTop () {
