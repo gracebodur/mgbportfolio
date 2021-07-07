@@ -3,7 +3,7 @@ import './Intro.css'
 const Intro = () => {
     return (
         <section className='intro'>
-            <h1 className='intro-title'>Frontend Developer</h1>
+            <h1 className='intro-title'>Front End Developer</h1>
             <h4 className='intro-text'>Hi there, I'm Grace. I develop fully responsive web applications, and write clean, high-quality code that is scalable and maintainable.</h4>
             <div className='intro-actions'>
                 <a href='#projects' className='intro-link' alt='project link'>
