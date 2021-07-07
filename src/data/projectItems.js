@@ -3,6 +3,7 @@ import scrabblesolver from '../assets/ScrabbleSolver.png'
 import jot from '../assets/Jot.png'
 import quizapp from '../assets/QuizApp.png'
 import reshop from '../assets/ReShop.png'
+import gbb from '../assets/GBB.png'
 
 const projectItems = [
     {
@@ -44,6 +45,14 @@ const projectItems = [
         description: "A note taking app based on Google's Keep note-taking service where users can add, edit and delete a note. Notes are stored and access using LocalStorage so created notes will persist even after the browser window is closed. Built using HTML, CSS and JavaScript.",
         liveLink: 'https://gracebodur.github.io/jot/',
         codeLink: 'https://github.com/gracebodur/jot'
+    },
+    {
+        id: 6,
+        imgUrl: gbb,
+        title: "Grace and Bo's Brewery",
+        description: "An example of an age gate for a local brewery’s website that include a prompt for a user to enter in their date of birth. If they are under 21, they are shown an error message; If they are over 21, they are shown the brewery’s website homepage.",
+        liveLink: 'https://graceandbosbrewery.netlify.app/',
+        codeLink: 'https://github.com/gracebodur/age-gate.git'
     }
 
 ]
