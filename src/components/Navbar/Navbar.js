@@ -21,7 +21,7 @@ const Navbar = () => {
 					</Link>
 				</li>
 				<a
-						href='https://drive.google.com/file/d/1qIMHDNL5cGCvfycBacTb8HalxmSqbgy0/view?usp=sharing'
+						href='https://drive.google.com/file/d/1no9aE1cnKabaGZROMQ2nULvxtJYF2xQZ/view?usp=sharing'
 						target='_blank'
 						rel='noreferrer'>
 						<li>resume</li>
