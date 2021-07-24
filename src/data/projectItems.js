@@ -46,14 +46,14 @@ const projectItems = [
         liveLink: 'https://gracebodur.github.io/jot/',
         codeLink: 'https://github.com/gracebodur/jot'
     },
-    {
-        id: 6,
-        imgUrl: gbb,
-        title: "Grace and Bo's Brewery",
-        description: "An example of an age gate for a local brewery’s website that include a prompt for a user to enter in their date of birth. If they are under 21, they are shown an error message; If they are over 21, they are shown the brewery’s website homepage.",
-        liveLink: 'https://graceandbosbrewery.netlify.app/',
-        codeLink: 'https://github.com/gracebodur/age-gate.git'
-    }
+    // {
+    //     id: 6,
+    //     imgUrl: gbb,
+    //     title: "Grace and Bo's Brewery",
+    //     description: "An example of an age gate for a local brewery’s website that include a prompt for a user to enter in their date of birth. If they are under 21, they are shown an error message; If they are over 21, they are shown the brewery’s website homepage.",
+    //     liveLink: 'https://graceandbosbrewery.netlify.app/',
+    //     codeLink: 'https://github.com/gracebodur/age-gate.git'
+    // }
 
 ]
 
