@@ -3,7 +3,6 @@ import scrabblesolver from "../assets/ScrabbleSolver.png";
 import jot from "../assets/Jot.png";
 import quizapp from "../assets/QuizApp.png";
 import reshop from "../assets/ReShop.png";
-import gbb from "../assets/GBB.png";
 
 const projectItems = [
   {
