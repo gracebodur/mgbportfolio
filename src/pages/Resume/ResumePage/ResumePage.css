@@ -57,19 +57,45 @@ body {
   color: var(--text-color);
 }
 
-h1,
-h2,
-h3,
-ul,
-p {
+.r-h1,
+.r-h2,
+.r-h3,
+.r-ul,
+.r-p {
   margin: 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
 }
 
-h1,
-h2,
-h3 {
+.r-h1,
+.r-h2,
+.r-h3 {
   color: var(--title-color);
   font-weight: var(--font-medium);
+}
+
+.r-ul {
+  padding: 0;
+  list-style: none;
+}
+
+.r-a {
+  text-decoration: none;
+}
+
+.r-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*========== CLASS CSS ==========*/
+.r-section {
+  padding: 1.5rem 0;
+}
+
+.r-section-title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
 }
