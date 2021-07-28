@@ -10,6 +10,7 @@ import Projects from './pages/Projects/Projects'
 import Resume from './pages/Resume/Resume'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Footer from './components/Footer/Footer'
+import ResumePage from './pages/Resume/ResumePage/ResumePage'
 
 class App extends React.Component {
 	render() {
@@ -29,6 +30,9 @@ class App extends React.Component {
 					</Route>
 					<Route path='/resume'>
 						<Resume />
+					</Route>
+					<Route path='/resumepage'>
+						<ResumePage />
 					</Route>
 				</Switch>
 			</div>
