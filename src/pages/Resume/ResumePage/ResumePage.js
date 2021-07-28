@@ -3,6 +3,7 @@ import ResumeHeader from "../../../components/ResumeHeader/ResumeHeader";
 import "./ResumePage.css";
 
 const ResumePage = () => {
+  
   return (
     <>
       <ResumeHeader />
