@@ -8,7 +8,7 @@ const ResumeHeader = () => {
         <a href="https://www.mariegracebodur.com/" className="nav__logo">
           MGB
         </a>
-        <div className="nav__menu" id="nav-menu" onClick={setIsMenuOpen}>
+        <div className="nav__menu" id="nav-menu">
           <ul className="nav__list r-ul">
             <li className="nav__item">
               <a href="https://www.mariegracebodur.com/" className="nav__link">
