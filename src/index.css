@@ -49,14 +49,41 @@ body {
 }
 
 :root {
-  --black: #111515;
-  --darkgray: #29303A;
-  --lightgray: #CACACA;
-  --white: #fff;
-  --gold: #DAA520;
-}
+  /*========== Colors ==========*/
+  --title-color: #0b0a0a;
+  --text-color: #403a3a;
+  --text-color-light: #707070;
+  --container-color: #fafafa;
+  --container-color-alt: #f0efef;
+  --body-color: #fcfcfc;
 
-/* Fonts */
+  --black: #111515;
+  --darkgray: #29303a;
+  --lightgray: #cacaca;
+  --white: #fff;
+  --gold: #daa520;
+
+  /*========== Resume Variables ==========*/
+  --header-height: 3rem;
+
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
 
 h1 {
   font-family: "Larsseit", Helvetica, sans-serif;
@@ -113,7 +140,6 @@ h5 a {
 }
 
 @media (max-width: 767px) {
-
   /* Fonts */
   h1 {
     word-spacing: 0;
