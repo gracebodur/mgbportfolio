@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 import './Footer.css'
 
 const Footer = () => {
@@ -15,10 +13,6 @@ const Footer = () => {
                 <a href="mailto:mgracebodur@gmail.com" target='_blank' rel='noreferrer'>
                     <li className='footer-link'>email</li>
                 </a>
-                <Link to='/resume'>
-                    <li className='footer-link'>resume
-                    </li>
-                </Link>
             </ul>
         </footer>
     )
