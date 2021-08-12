@@ -1,20 +1,49 @@
-import './Intro.css'
+import "./Intro.css";
+import React from "react";
 
 const Intro = () => {
+    const downloadFile = () => {
+        window.open('https://drive.google.com/file/d/1hpMDgxWMHbwLNXlGvKFxy_3FN_JiI1wl/view?usp=sharing', '_blank');
+    }
+
     return (
-        <section className='intro'>
-            <h1 className='intro-title'>Front End Developer</h1>
-            <h4 className='intro-text'>Hi there, I'm Grace. I develop fully responsive web applications, and write clean, high-quality code that is scalable and maintainable.</h4>
-            <div className='intro-actions'>
-                <button className='button'>Download Resume</button>
-                <a href='#projects' className='intro-link' alt='project link'>
-                    <svg width="29" height="29" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 1)" stroke="#DAA520" fill="none" fillRule="evenodd"><path strokeWidth="1.82" strokeLinecap="round" strokeLinejoin="round" d="M9.1 12.012l4.095 4.55 4.095-4.55"></path><circle strokeWidth="1.638" cx="13.195" cy="13.195" r="13.195"></circle></g></svg>
-                    <span className="link">See projects</span>
-               </a>
-            </div>
-        </section>
-
-    )
+      <section className="intro">
+        <h1 className="intro-title">Front End Developer</h1>
+        <h4 className="intro-text">
+          Hi there, I'm Grace. I develop fully responsive web applications, and
+          write clean, high-quality code that is scalable and maintainable.
+        </h4>
+        <div className="intro-actions">
+          <button className="button" onClick={downloadFile}>
+            Download Resume
+          </button>
+          <a href="#projects" className="intro-link" alt="project link">
+            <svg width="29" height="29" xmlns="http://www.w3.org/2000/svg">
+              <g
+                transform="translate(1 1)"
+                stroke="#DAA520"
+                fill="none"
+                fillRule="evenodd"
+              >
+                <path
+                  strokeWidth="1.82"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9.1 12.012l4.095 4.55 4.095-4.55"
+                ></path>
+                <circle
+                  strokeWidth="1.638"
+                  cx="13.195"
+                  cy="13.195"
+                  r="13.195"
+                ></circle>
+              </g>
+            </svg>
+            <span className="link">See projects</span>
+          </a>
+        </div>
+      </section>
+    );
 }
-
-export default Intro
+  
+export default Intro;
