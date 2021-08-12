@@ -20,12 +20,6 @@ const Navbar = () => {
 						projects
 					</Link>
 				</li>
-				<a
-						href='https://drive.google.com/file/d/1no9aE1cnKabaGZROMQ2nULvxtJYF2xQZ/view?usp=sharing'
-						target='_blank'
-						rel='noreferrer'>
-						<li>resume</li>
-				</a>
 			</ul>
 		</nav>
 	)
