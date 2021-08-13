@@ -1,11 +1,8 @@
-import "./Intro.css";
 import React from "react";
+import ResumeBtn from "../ResumeBtn/ResumeBtn";
+import "./Intro.css";
 
 const Intro = () => {
-    const downloadFile = () => {
-        window.open('https://drive.google.com/file/d/1hpMDgxWMHbwLNXlGvKFxy_3FN_JiI1wl/view?usp=sharing', '_blank');
-    }
-
     return (
       <section className="intro">
         <h1 className="intro-title">Front End Developer</h1>
@@ -14,9 +11,7 @@ const Intro = () => {
           write clean, high-quality code that is scalable and maintainable.
         </h4>
         <div className="intro-actions">
-          <button className="button" onClick={downloadFile}>
-            Download Resume
-          </button>
+         <ResumeBtn />
           <a href="#projects" className="intro-link" alt="project link">
             <svg width="29" height="29" xmlns="http://www.w3.org/2000/svg">
               <g
