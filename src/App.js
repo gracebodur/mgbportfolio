@@ -7,7 +7,6 @@ import About from "./pages/About/About";
 import Skills from "./components/Skills/Skills";
 import ProjectHeader from "./components/ProjectHeader/ProjectHeader";
 import Projects from "./pages/Projects/Projects";
-import Resume from "./pages/Resume/Resume";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
@@ -41,9 +40,6 @@ class App extends React.Component {
             <Projects />
             <ScrollToTop />
             <Footer />
-          </Route>
-          <Route path="/resume">
-            <Resume />
           </Route>
         </Switch>
       </div>
