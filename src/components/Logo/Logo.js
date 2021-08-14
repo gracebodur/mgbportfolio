@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import SocialIcons from '../SocialIcons/SocialIcons'
-import mgbLogo from '../../assets/mgb-logo.svg'
+import mgbLogo from '../../assets/mgb-logo.jpg'
 import './Logo.css'
 
 const Logo = () => {
