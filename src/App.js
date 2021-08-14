@@ -10,6 +10,7 @@ import Projects from "./pages/Projects/Projects";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/Preloader/Preloader";
+import Outro from "./components/Outro/Outro";
 
 class App extends React.Component {
   state = { loading: true };
@@ -39,6 +40,7 @@ class App extends React.Component {
             <ProjectHeader />
             <Projects />
             <ScrollToTop />
+            <Outro />
             <Footer />
           </Route>
         </Switch>
