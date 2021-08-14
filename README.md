@@ -1,7 +1,8 @@
 # Marie Grace Bodur Portfolio
 
-### 
- While I've been job hunting, freelancing and interning I've been building this site as a side project, and diving into aspects of front-end I love. It's built in React and CSS, incorporating react-reveal and react-scroll. This was the first project I deployed with Vercel and it was a breeze!
+###
+
+While I've been job hunting, freelancing and interning I've been building this site as a side project, and diving into aspects of front-end I love. It's built in React and CSS, incorporating react-reveal and react-scroll. This was the first project I deployed with Vercel and it was a breeze!
 
 ## Available Scripts
 
@@ -30,6 +31,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### Credits
 
-
-
+Created my free logo at <a href="https://freelogo.me">FreeLogo.me</a>
